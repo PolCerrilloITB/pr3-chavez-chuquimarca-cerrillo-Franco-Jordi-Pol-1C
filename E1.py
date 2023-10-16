@@ -1,8 +1,10 @@
-"""Franco Chavez Lava
+"""
+Franco Chavez/Jordi Chuquimarca/Pol Cerrillo
 10/10/23
 ASIXc1C M03 UF1
 Descripcion:Demanar el diàmetre d'una pizza rodona i imprimeix la seva superfície.
-Pots usar Math.PI per escriure el valor de Pi."""
+Pots usar Math.PI per escriure el valor de Pi.
+"""
 import math
 
 diametro = int(input("¿Cual es el diametro de la pizza en centimetros?"))
