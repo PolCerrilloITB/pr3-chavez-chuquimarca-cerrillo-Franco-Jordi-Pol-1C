@@ -5,6 +5,7 @@ ASIXc1C M03 UF1
 Descripcion:Demanar el diàmetre d'una pizza rodona i imprimeix la seva superfície.
 Pots usar Math.PI per escriure el valor de Pi.
 """
+#Calcula la superfície de la pizza y pon el resultado en pantalla
 import math
 
 diametro = int(input("¿Cual es el diametro de la pizza en centimetros?"))
