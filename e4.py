@@ -7,3 +7,5 @@ Calcula l'import amb descompte, en cas de tenir la targeta de client,
 tenint en compte els següents criteris:
 '''
 weuifhweufhweugfhweuiog
+
+dd
