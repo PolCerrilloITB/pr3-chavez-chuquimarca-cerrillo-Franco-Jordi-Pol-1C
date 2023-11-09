@@ -15,7 +15,7 @@ num1 = int(num1)
 num2 = int(num2)
 num3 = int(num3)
 
-# ordre dels numeros segons el seu valor
+# diu si esta en ordre creixen o no
 
 if num1 < num2 and num2 < num3:
     print("Ordre creixent")
