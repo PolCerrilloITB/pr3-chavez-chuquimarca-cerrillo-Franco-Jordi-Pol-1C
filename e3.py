@@ -21,7 +21,7 @@ vM = (velocitatInicial+vI)/2
 
 # Comprobació de si esta aturat el vehicle
 
-if vI == 0 or vI < 0:
+if vI <= 0:
     print("El vehicle esta aturat o en direcció negativa i no put calcular la velocitat mitjana")
 else:
     print("Velocitat inicial:", vI, "Velocitat mitjana:", vM)
