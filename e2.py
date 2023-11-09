@@ -5,17 +5,17 @@ ASIXc1C M03 UF1
 Descripció: Programa que detecta si tres números demanats han estat introduïts en ordre creixent.
 '''
 
-# separació dels numeros amb el .split()
+# Separació dels numeros amb el .split()
 
 num1, num2, num3 = (input("Tres numeros:").split())
 
-# pasar els numeros a int
+# Pasar els numeros a int
 
 num1 = int(num1)
 num2 = int(num2)
 num3 = int(num3)
 
-# diu si esta en ordre creixen o no
+# Diu si esta en ordre creixen o no
 
 if num1 < num2 and num2 < num3:
     print("Ordre creixent")

@@ -8,18 +8,18 @@ Si la velocitat instantània és inferior o igual a 0, has d'indicar que està p
 calcular la velocitat mitjana.
 '''
 
-# variables de les dades demanades
+# Variables de les dades demanades
 
 velocitatInicial = int(input("Velocitat?"))
 acceleracio = float(input("Acceleració?"))
 temps = float(input("Temps?"))
 
-# creació de noves variables amb els seus calculs
+# Creació de noves variables amb els seus calculs
 
 vI = velocitatInicial+acceleracio*temps
 vM = (velocitatInicial+vI)/2
 
-# comprobació de si esta aturat el vehicle
+# Comprobació de si esta aturat el vehicle
 
 if vI == 0 or vI < 0:
     print("El vehicle esta aturat o en direcció negativa i no put calcular la velocitat mitjana")
