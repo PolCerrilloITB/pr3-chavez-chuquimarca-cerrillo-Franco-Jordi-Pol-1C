@@ -8,10 +8,11 @@ tenint en compte els següents criteris:
 '''
 pTotal0 = int(input(print("Cual es el precio total de lo pagado, con el iva incluido?")))
 
+# calcul de la variable dins del if
+
 if pTotal0 >= 100:
     pInicial = pTotal0*0.79
     Descuento = pInicial*1.21
-
     print("El precio con el descuento es de ",round(Descuento,2),"€")
 else:
     print("No se aplica el descuento")
