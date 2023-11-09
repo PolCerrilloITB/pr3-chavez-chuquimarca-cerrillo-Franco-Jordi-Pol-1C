@@ -14,7 +14,7 @@ num1, num2= (input("Dos numeros? ").split())
 num1 = int(num1)
 num2 = int(num2)
 
-# orientació dels numeros
+# orientació dels numeros segons el seu valor
 
 if num1 == num2 or num1 > num2:
     print(num2, num1)
