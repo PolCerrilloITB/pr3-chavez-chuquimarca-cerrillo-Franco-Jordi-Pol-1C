@@ -5,7 +5,6 @@ ASIXc1C M03 UF1
 Descripcion: Programa que demana dos números si el primer és més gran o igual que el segon els intercanvia.
 I torna a mostrar els valors per pantalla
 """
-
 num1, num2= (input("Dos numeros? ").split())
 num1 = int(num1)
 num2 = int(num2)
