@@ -17,6 +17,9 @@ num2 = int(num2)
 # Orientació dels numeros segons el seu valor
 
 if num1 == num2 or num1 > num2:
-    print(num2, num1)
+    num1 = num2
+    num2 = num1
+    print(num1, num2)
+
 else:
     print(num1, num2)

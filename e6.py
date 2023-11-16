@@ -37,16 +37,16 @@ elif tipo == "I":
 
 # m3 definides amb els corresponents calculs
 
-if m3 == [0-6]:
-    precio = m3*0.5849
-elif m3 == [7-9]:
-    precio = m3*1.1699
-elif m3 == [10-15]:
-    precio = m3*1.7548
-elif m3 == [16-18]:
-    precio = m3*2.3397
+if 0 <= m3 <= 6:
+    precio = 0.5849
+elif 7 <= m3 <= 9:
+    precio = 1.1699
+elif 10 <= m3 <= 15:
+    precio = 1.7548
+elif 16 <= m3 <= 18:
+    precio = 2.3397
 elif m3 > 18:
-    precio = m3*2.9246
+    precio = 2.9246
 
 precioTotal = (m3 * precio) + precioFijo
 precioTotal = round(precioTotal,2)
